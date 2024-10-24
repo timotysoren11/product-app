@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import '../../components/sidebar/Sidebar.css';
-import Product from '../../components/product/Product';
+import Product from '../../components/category/Category';
 
 const Sidebar = () => {
   const [activeView, setActiveView] = useState(''); // State to track the active view
